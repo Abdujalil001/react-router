@@ -1,0 +1,88 @@
+/* Signup sahifasi uchun zamonaviy va toza dizayn */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8fafd;
+}
+
+.signup-form {
+  background: #fff;
+  padding: 40px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-form h2 {
+  margin-bottom: 8px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 12px 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.signup-form input:focus,
+.signup-form select:focus {
+  border: 1.5px solid #2ecc71;
+}
+
+.signup-form button {
+  background: #11c26d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.signup-form button:hover {
+  background: #0fa95a;
+}
+
+.signup-form .link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.98rem;
+  margin-top: 8px;
+  text-align: right;
+}
+
+.signup-form .google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #fff;
+  color: #222;
+  border: 1px solid #e0e0e0;
+  margin-top: 8px;
+}
+
+.signup-form .or {
+  text-align: center;
+  color: #aaa;
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.signup-form .footer-link {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.98rem;
+} 
